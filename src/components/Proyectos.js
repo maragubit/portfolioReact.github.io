@@ -31,7 +31,7 @@ function Proyectos(){
         <div className="info">
             <Carousel>
                 <div>
-                    <img src="ahorroDiario.png" />
+                    <img src="ahorroDiario.png" alt="ahorrodiario" />
                     <div className="legend">
                         <h3>Ahorro Diario</h3>
                         <p>Aplicacion web para gestionar lo que quieres ahorrar</p>
@@ -41,7 +41,7 @@ function Proyectos(){
                     
                 </div>
                 <div>
-                    <img src="mymdental.png" />
+                    <img src="mymdental.png" alt="mymdental" />
                     <div className="legend">
                         <h3>M&M Dental</h3>
                         <p>Aplicación web clínica dental</p>
@@ -50,7 +50,7 @@ function Proyectos(){
                     </div>
                 </div>
                 <div>
-                    <img src="laboratorio.png" />
+                    <img src="laboratorio.png" alt="laboratorio" />
                     <div className="legend">
                         <h3>Laboratorio nutrición</h3>
                         <p>Aplicación web gestión muestras laboratorio</p>
@@ -59,7 +59,7 @@ function Proyectos(){
                     </div>
                 </div>
                 <div>
-                    <img src="fitomanager.png" />
+                    <img src="fitomanager.png" alt="fitomanager" />
                     <div className="legend">
                         <h3>Fitomanager</h3>
                         <p>Aplicación web plantas medicinales</p>
@@ -68,7 +68,7 @@ function Proyectos(){
                     </div>
                 </div>
                 <div>
-                    <img src="oca.png" />
+                    <img src="oca.png" alt="oca"/>
                     <div className="legend">
                         <h3>Juego de la oca</h3>
                         <p>Juego oca para CFGS Desarrollo de aplicaciones Web. Ilerna FP </p>
@@ -85,7 +85,7 @@ function Proyectos(){
         }
         
         <div className="pcImage">
-            <img  src={imagen}></img>
+            <img  src={imagen} alt="pc"></img>
         </div>
         </>
     );
