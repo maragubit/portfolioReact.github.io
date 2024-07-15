@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import Proyectos from "./Proyectos";
 import Habilidades from "./Habilidades";
 import Contacto from "./Contacto";
+import Joey from "./Joey";
 
 
 function Nomovil(){
@@ -27,6 +28,7 @@ function Nomovil(){
             <Link to='/habilidades'><area title="My Skills" id="habilidades" shape="poly" coords="199,296,199,322,211,327,265,320,269,298,260,296,258,280,217,280" alt="Skills" href=""></area></Link>
             <area title="light"shape="rect" coords="16,241,46,270" alt="light" onClick={cambioImagen} href="#"></area>
             <area title="Messi"shape="rect" coords="19,22,147,178" alt="Messi" href="https://en.wikipedia.org/wiki/God" target="_blank"></area>
+            <Link to='/joey'><area title="Joey" id="joey" shape="poly" coords="271,397,271,425,280,430,346,421,341,398,320,391" alt="Joey" href=""></area></Link>
             <Link to='/contacto'><area title="contact" id="contacto" shape="rect" coords="441,485,547,537" alt="contact" href=""></area></Link>
             </map>
             <Routes>  
@@ -34,6 +36,8 @@ function Nomovil(){
                 <Route path='/proyectos' element={<Proyectos/>}></Route>
                 <Route path='/habilidades' element={<Habilidades/>}></Route>
                 <Route path='/contacto' element={<Contacto/>}></Route>
+                <Route path='/joey' element={<Joey/>}></Route>
+
             </Routes>
         </Router>
         </div>
