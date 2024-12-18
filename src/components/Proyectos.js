@@ -31,12 +31,21 @@ function Proyectos(){
         <div className="info">
             <Carousel>
                 <div>
+                    <img src="futbol7.png" alt="futbol7" />
+                    <div className="legend">
+                        <h3>Futbol 7 la granja</h3>
+                        <p>Aplicacion web para gestionar los partidos de los jueves</p>
+                        <p>Back-end: Django (Python)</p>
+                        <p> <a href="https://futbol7lagranja.pythonanywhere.com/" target="_blank">Link Demo</a></p>
+                    </div>
+                </div>
+                <div>
                     <img src="ahorroDiario.png" alt="ahorrodiario" />
                     <div className="legend">
                         <h3>Ahorro Diario</h3>
                         <p>Aplicacion web para gestionar lo que quieres ahorrar</p>
                         <p>Back-end: PHP (Laravel)</p>
-                        <p> <a href="http://ec2-51-20-127-127.eu-north-1.compute.amazonaws.com" target="_blank">Link Demo</a></p>
+                        <p> <a href="http://ec2-51-20-127-127.eu-north-1.compute.amazonaws.com" target="_blank">Link Demo (desactivado temporalmente)</a></p>
                     </div>
                     
                 </div>
