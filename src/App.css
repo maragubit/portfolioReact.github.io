@@ -107,15 +107,18 @@ border-right: none;
   text-align:center;
   color:black;
   position: absolute;
-  left: 35%;
+  margin-left: 35%;
+  margin-right: 35%;
   top: 1%;
   height:260px;
   z-index: 2;
 }
 .pcImage{
   position: absolute;
-  left: 670px;
-  top: 7px;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  top: 1%;
   z-index: 1;
 }
 .info{
