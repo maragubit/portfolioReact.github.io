@@ -31,6 +31,25 @@ function Proyectos(){
         <div className="info">
             <Carousel>
                 <div>
+                    <img src="webguardian.png" alt="webguardian" />
+                    <div className="legend">
+                        <h3>Web Guardian</h3>
+                        <p>Aplicacion web para realizar informes de ciberseguridad</p>
+                        <p>Back-end: Laravel (php)</p>
+                        <p> <a href="https:/webguardian.es" target="_blank">webguardian.es</a></p>
+                    </div>
+                </div>
+                <div>
+                    <img src="celita.png" alt="celita" />
+                    <div className="legend">
+                        <h3>Celita</h3>
+                        <p>Aplicacion web para controlar las raciones de HC de mi sobrina diabética.</p>
+                        <p>Back-end: Django (python)</p>
+                    </div>
+                </div>
+                
+                
+                <div>
                     <img src="futbol7.png" alt="futbol7" />
                     <div className="legend">
                         <h3>Futbol 7 la granja</h3>
